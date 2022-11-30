@@ -1,0 +1,128 @@
+/* Estilo del header */
+header{background-color: lightskyblue; padding: 15px;}
+.lapiz{width: 18px;
+height: 18px;
+background-position: center;
+}
+h1{font-style: italic;
+text-align:center;
+font-family: 'roboto', Tahoma, Geneva, Verdana, sans-serif; fon}
+nav{text-align: center;}
+ul{list-style: none;  justify-content: center; gap: 20px;}
+
+a{text-decoration: none; align-items: flex-end;}
+
+/* Diseño del main */
+
+
+body{font-family:'roboto', Tahoma, Geneva, Verdana, sans-serif  }
+img{width: 170px; ;
+height: 170px
+; justify-content: center;
+}
+img{width: 170px;
+height: 170px;
+justify-content: center;
+}
+
+.contenedor {display: grid; grid-template-columns:repeat(4,325px) ;text-shadow: 1px;
+justify-items: center; align-items: center;   
+}
+
+.caja1{display: grid;grid-template-columns: 
+    repeat(2,45%); column-gap:100px ; margin: 40px;
+padding-left: 100px ; 
+}
+.caja2:hover{transform: rotate(30deg); transition-duration: 3s;}
+
+.caja2{border: 2px groove black; box-shadow: 10px 10px 40px 10px; text-shadow: 1px; transform: skew(3deg);
+    height: 17 0px;
+    width: 370px;
+    margin: 60px;
+    display: flex;
+text-align: center;}
+
+
+span{font-size: 0.813rem;}
+
+
+
+/* Diseño del footer */
+footer{background-color: lightskyblue; height: 42vh;}
+.footerNombre{color: rgb(0, 0, 0);}   
+footer h4{text-align: center;} 
+form{text-align: right;}
+
+
+@media(max-width:768px)
+{.contenedor{display: grid;grid-template-columns: repeat(2,50%); grid-template-rows: repeat(2,170px); row-gap:100px; }
+
+header { width: 100vw;} .caja1{display: grid; grid-template-rows: repeat(2,35%); padding-left: 15%; display: block;}
+nav ul { font-size: 20px;text-align: center; gap: 5px;}
+div img { align-content: center;}
+footer { width: 100vw;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* MEDIA LIBROS 
+@media(max-width: 768px){.contenedor{display: flex;
+    display: grid;
+    grid-template-columns:repeat(2,150px);
+    grid-template-rows: repeat(4,150px);
+    justify-content:space-between;
+    align-content: space-between;
+padding: 10px;
+    align-items: center;
+    gap: 20px;}
+    img {width:90px;
+    height:90px ; background-position: center;}
+
+nav ul {display: flex; flex-direction: column;
+align-items: center;}
+
+header {background-color:lightskyblue; width: 270px; ;}
+
+footer { background-color:lightskyblue; width: 320px;}
+}
+
+MEDIA INDEX
+
+@media(max-width:768px)
+    {.caja1{ font-size:16px ; display: block; grid-template-columns: repeat(2,300px );justify-content: start; padding-left:1px ;
+    }.caja2{width: 200px; column-gap: 20px}; header{width: 100%;}}
+
+
+     */
+
